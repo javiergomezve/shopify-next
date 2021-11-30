@@ -7,7 +7,7 @@ const ProductCard = ({ handle, title, images, priceRange }) => {
     const { amount: price } = priceRange?.minVariantPrice;
 
     return (
-        <Link href={`/product/${handle}`}>
+        <Link href={`/products/${handle}`}>
             <a className="group">
                 <div className="w-full overflow-hidden bg-gray-200 rounded-3xl">
                     <div className="relative group-hover:opacity-75 h-72">
